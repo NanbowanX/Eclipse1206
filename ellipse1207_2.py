@@ -33,8 +33,8 @@ for i in range(n):
     # 挑选椭圆位于圆上的焦点II
     theta2 = input("Please choose the focii II angle(0 - 360): theta2 = ")
 
-    x2 = np.cos(2 * float(theta1) * np.pi / 360)
-    y2 = np.sin(2 * float(theta1) * np.pi / 360)
+    x2 = np.cos(2 * float(theta2) * np.pi / 360)
+    y2 = np.sin(2 * float(theta2) * np.pi / 360)
 
     # 定义长轴长c
     c = input("Input major axis: c = ")
