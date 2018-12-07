@@ -30,17 +30,17 @@ for i in range(n):
     x1 = float(x1)
     y1 = np.sqrt(r ** 2 - x1 ** 2)
 
-    choice1 = input("Input 1 if you want y Position of the focii I y1 >0\n else input 0:")
+    choice1 = input("Input 1 if you want y Position of the focii I y1 >0\n else input 0: ")
     if int(choice1) == 1:
         y1 = float(y1)
     else:
         y1 = -float(y1)
     # 挑选椭圆位于圆上的焦点II
-    x2 = input("Please choose x Position of the focii I (|x2| <= r) : x2 = ")
+    x2 = input("Please choose x Position of the focii II (|x2| <= r) : x2 = ")
     x2 = float(x2)
     y2 = np.sqrt(r ** 2 - x2 ** 2)
 
-    choice1 = input("Input 1 if you want y Position of the focii I y1 >0\n else input 0:")
+    choice1 = input("Input 1 if you want y Position of the focii II y2 >0\n else input 0: ")
     if int(choice1) == 1:
         y2 = float(y2)
     else:
